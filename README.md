@@ -2,7 +2,7 @@
 
 > Mackenzie Sennett<sup>1</sup>, Kyle McGovern<sup>1</sup>, Karine Moussa<sup>1,2</sup>
 1. Script Development
-2. Manuscript
+2. Software Note
 
 ## Summary
 We developed a [python script](https://colab.research.google.com/drive/1gNQ5P8fsHWdLLjNbvY-Rp8QqqCxp-d-b?usp=sharing) to return the genomic coordinates of [PANGO amino acid mutations](https://cov-lineages.org/index.html), which are formatted in gene coordinates. We also deliver a notebook to return the [all genomic coordinates of  variants across all PANGO lineages](https://colab.research.google.com/drive/1vVDWNRcZ7AsO27n2SXaO9eww96ZwE2nz?usp=sharing).  
@@ -40,14 +40,17 @@ The genomic position is checked by translating the codon at the genomic position
 
 ### Example:
 *`Runtime > Run all`*
+
 <img width="500" alt="image" src="https://i.imgur.com/i0uICEG.png">
 <br></br>
 
 `Input PANGO mutations`
+
 <img width="400" alt="image" src="https://i.imgur.com/44yNWP0.png">
 
 
-`Output:`
+`Output`
+
 <img width="600" alt="image" src="https://i.imgur.com/0kYgZaj.png">
 
 
@@ -60,9 +63,11 @@ The PANGO genomic coordinates notebook can be accessed here: [PANGO Lineages: Al
 ### Instructions:
 - In the colab menu: *Runtime > Runall*
 
-Preview of output:
+`Preview of output`
+
 <img width="800" alt="image" src="https://i.imgur.com/9C6imjo.png">
 
+<br></br>
 To download the output table, go to the Colab *files* tab > right-click on `snpaa.csv` > select *download*:
 
 <img width="200" alt="image" src="https://i.imgur.com/pNNC5YU.png">
